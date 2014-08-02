@@ -26,4 +26,4 @@ if(
 
 Using the right-most triangle as an example, the above code is insufficient because even when its position (`targetX`) is greater than (`>`) the width of the screen (`ig.system.width`), it's still possible for the image to be rotated back into view.
 
-**The function is returning prematurely because `targetX > ig.system.width` does not take rotation into account.**
+**The function returs prematurely because `targetX > ig.system.width` does account for rotation.**
