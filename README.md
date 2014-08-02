@@ -8,9 +8,11 @@ impact-rotation-issue
 
 ## Explanation ##
 
-As you can see from the first screenshot, each rectangle has a non-zero angle value and is therefore rotating into the screen area (bordered in green). However, in the second screenshot, several of the rotated rectangles are not drawn.
+As you can see from the first screenshot, each rectangle has a non-zero `angle` value and is therefore rotating into the screen area (bordered in green).
 
-This is because of the implementation of the `ig.Animation` class, specifically its `draw` function, which contains the following:
+However, in the second screenshot, several of the rotated rectangles are not drawn.
+
+This is because of the implementation of the `ig.Animation` class `draw` function, which contains:
 
 ```
 // On screen?
