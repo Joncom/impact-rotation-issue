@@ -8,7 +8,7 @@ impact-rotation-issue
 
 ## Explanation ##
 
-As you can see from the first screenshot, each rectangle has a non-zero `angle` value and is therefore rotating into the screen area (bordered in green).
+As you can see from the first screenshot, each rectangle has a non-zero `angle` value and is therefore rotated into the screen area when drawn.
 
 However, in the second screenshot, several of the rotated rectangles are not drawn.
 
@@ -26,4 +26,4 @@ if(
 
 Using the right-most triangle as an example, the above code is insufficient because even when its position (`targetX`) is greater than (`>`) the width of the screen (`ig.system.width`), it's still possible for the image to be rotated back into view.
 
-**The function returns prematurely because `targetX > ig.system.width` does account for rotation.**
+**The function returns prematurely because `targetX > ig.system.width` does not account for rotation.**
