@@ -3,6 +3,8 @@ impact-rotation-issue
 
 #### Demonstrating a drawing bug in ImpactJS. ####
 
+As of the latest ImpactJS version, 1.24, this issue is still present.
+
 ![Screenshot 1](https://raw.githubusercontent.com/Joncom/impact-rotation-issue/master/media/screenshot1.png)
 ![Screenshot 2](https://raw.githubusercontent.com/Joncom/impact-rotation-issue/master/media/screenshot2.png)
 
